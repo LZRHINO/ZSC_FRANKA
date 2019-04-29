@@ -1,0 +1,13 @@
+---
+#示教储存的位置
+pose_param: &pose_param
+  joint_values: [0.0,-0.785,0.0,-2.355,0.0,1.57,0.785]
+  time_from_start: 0.0
+
+panda_teach: {
+  teach_name: "test_teach"
+    teach_pose: [
+          - <<: *pose_param
+    ]
+    time: 0.0003
+}

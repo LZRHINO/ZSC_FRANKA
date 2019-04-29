@@ -1,0 +1,5 @@
+motion_config:
+  vel: 0.1
+  acc: 0.1
+  follow_vel: 0.05
+  follow_acc: 0.05

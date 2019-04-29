@@ -1,0 +1,7 @@
+panda_msgs/Header header                            #任务的头文件添加时间戳 任务id等
+panda_msgs/ControlStep[] csp                        #轨迹序列
+float64 exec_duration                              #运行的时长
+---
+bool result         #执行的结果 
+string error_info   #如果有错误 返回错误的原因
+---

@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<launch>
+  <arg name="panda_arm_command_topic" value="/panda_arm_controller/command" />
+  <arg name="panda_gripper_command_topic" value="/franka_gripper/gripper_action" />
+
+  <rosparam command="load" file="$(find panda_config)/config/control_config.yaml" />
+
+  <node name="panda_controller" pkg="panda_control" type="panda_controller" respawn="false" output="screen">
+    <param name="panda_arm_command_topic" value="$(arg panda_arm_command_topic)"/>
+    <param name="panda_gripper_command_topic" value="$(arg panda_gripper_command_topic)"/>
+  </node>
+
+</launch>

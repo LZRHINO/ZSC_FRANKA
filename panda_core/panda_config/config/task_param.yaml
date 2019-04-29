@@ -1,0 +1,46 @@
+task_config:
+  q0: [0.0,-0.785,0.0,-2.355,0.0,1.57,0.785]
+  duration_to_start: 2.0
+  step_num: 6
+
+
+  movetype1: 1
+  grasptype1: 0
+  duration1: 2
+  qtarget1: [0.0,0.785,0.0,-1.57,0.0,2.355,0.785]
+  dxyzrpy1: [0.0,0.0,-0.0,0.0,0.0,0.0]
+
+  movetype2: 4
+  grasptype2: 1
+  duration2: 2
+  qtarget2: [0.0,0.785,0.0,-2.0,0.0,2.8,0.785]
+  dxyzrpy2: [0.0,0.2,-0.1,0.0,0.0,1.0]
+
+  # movetype2: 1
+  # grasptype2: 1
+  # duration2: 0.5
+  # qtarget2: [0.0,0.785,0.0,-2.0,0.0,2.8,0.785]
+
+  movetype3: 1
+  grasptype3: 1
+  duration3: 2
+  qtarget3: [0.0,-0.785,0.0,-2.855,0.0,2.8,0.785]
+  dxyzrpy3: [0.0,0.0,0.0,0.0,0.0,0.0]
+
+  movetype4: 1
+  grasptype4: 1
+  duration4: 2
+  qtarget4: [1.0,0,0.0,-2.355,0.0,2.8,0.785]
+  dxyzrpy4: [0.0,0.0,0.0,0.0,0.0,0.0]
+
+  movetype5: 1
+  grasptype5: 0
+  duration5: 2
+  qtarget5: [1.0,0.785,0.0,-2.0,0.0,2.8,0.785]
+  dxyzrpy5: [0.0,0.0,0.0,0.0,0.0,0.0]
+
+  movetype6: 1
+  grasptype6: 0
+  duration6: 2
+  qtarget6: [1.0,0.0,0.0,-2.355,0.0,2.8,0.785]
+  dxyzrpy6: [0.0,0.0,0.0,0.0,0.0,0.0]

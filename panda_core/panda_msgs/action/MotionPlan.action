@@ -1,0 +1,11 @@
+#########  goal  #########
+panda_msgs/Header header        #任务的头文件添加时间戳 任务id等
+MotionStep[] msp                #运动规划序列
+---
+#########  result  #########
+bool result                     #最终执行的结果
+string  error_info              #执行中止的原因
+---
+#########  feekback  #########
+geometry_msgs/Pose F_pose       #末端当前在世界坐标系姿态
+float64[] joint_measure         #当前的关节角

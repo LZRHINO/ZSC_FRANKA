@@ -1,0 +1,16 @@
+#########  goal  #########
+panda_msgs/Header header    #任务的头文件添加时间戳 任务id等
+TaskStep[] tsp              #任务基元序列
+float64[] q0                #任务的起始关节角状态
+---
+#########  result  #########
+uint32  task_id             #任务id号
+int8  task_type             #当前任务类型
+bool result                 #任务执行的结果
+string  error_info          #执行中止的原因
+---
+#########  feekback  #########
+uint32 task_id              #当前执行的任务id
+int8  task_type             #当前任务类型
+string  task_state          #当前执行的状态
+string  question            #遇到的问题id号(不至于中止运行的问题，提前建立相应问题id，任务处于暂停阶段，等待问题解决

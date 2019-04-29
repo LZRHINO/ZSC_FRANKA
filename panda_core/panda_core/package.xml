@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>panda_core</name>
+  <version>19.04.20</version>
+  <description>The panda_core package</description>
+
+  <maintainer email="593421541@qq.com">Lin Zhuorong</maintainer>
+
+
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <exec_depend>panda_msgs</exec_depend>
+  <exec_depend>panda_config</exec_depend>
+  <exec_depend>panda_control</exec_depend>
+  <exec_depend>panda_motion</exec_depend>
+  <exec_depend>panda_task</exec_depend>
+
+
+  <export>
+    <metapackage/>
+  </export>
+</package>
